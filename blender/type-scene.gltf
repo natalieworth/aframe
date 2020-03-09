@@ -1,0 +1,276 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Text.003",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                3.377906322479248,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "name" : "Text.002",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                2.100691795349121,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "name" : "Text.001",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                0.4818732738494873,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "name" : "Text",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                -1.2519950866699219,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Plane.001",
+            "rotation" : [
+                0,
+                0,
+                -0.3826834559440613,
+                0.9238795042037964
+            ],
+            "scale" : [
+                5,
+                5,
+                5
+            ],
+            "translation" : [
+                7.658893585205078,
+                5.4932966232299805,
+                0.6677708625793457
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Plane",
+            "scale" : [
+                9,
+                9,
+                9
+            ],
+            "translation" : [
+                1.9014639854431152,
+                -0.027080893516540527,
+                -0.17326036095619202
+            ]
+        },
+        {
+            "name" : "Cylinder"
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.380237340927124,
+                0.2847190499305725,
+                -0.12737926840782166,
+                0.8707061409950256
+            ],
+            "translation" : [
+                33.12830352783203,
+                47.79347229003906,
+                40.694297790527344
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+            ],
+            "name" : "Material.003",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 2,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1,
+                0,
+                1
+            ],
+            "min" : [
+                -1,
+                0,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1,
+                0,
+                1
+            ],
+            "min" : [
+                -1,
+                0,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 48
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 96
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 108
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 156
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 204,
+            "uri" : "data:application/octet-stream;base64,AACAPwAAAAAAAIA/AACAPwAAAAAAAIC/AACAvwAAAAAAAIC/AACAvwAAAAAAAIA/AAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAABAAIAAAACAAMAAACAPwAAAAAAAIA/AACAPwAAAAAAAIC/AACAvwAAAAAAAIC/AACAvwAAAAAAAIA/AAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACA"
+        }
+    ]
+}
