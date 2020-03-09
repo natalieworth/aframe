@@ -1,0 +1,366 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.36",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired" : [
+        "KHR_lights_punctual"
+    ],
+    "extensions" : {
+        "KHR_lights_punctual" : {
+            "lights" : [
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 100,
+                    "type" : "point",
+                    "name" : "Lamp"
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "namedlayers" : {
+                    "layers" : [
+                        {
+                            "name" : "Layer01"
+                        },
+                        {
+                            "name" : "Layer02"
+                        },
+                        {
+                            "name" : "Layer03"
+                        },
+                        {
+                            "name" : "Layer04"
+                        },
+                        {
+                            "name" : "Layer05"
+                        },
+                        {
+                            "name" : "Layer06"
+                        },
+                        {
+                            "name" : "Layer07"
+                        },
+                        {
+                            "name" : "Layer08"
+                        },
+                        {
+                            "name" : "Layer09"
+                        },
+                        {
+                            "name" : "Layer10"
+                        },
+                        {
+                            "name" : "Layer11"
+                        },
+                        {
+                            "name" : "Layer12"
+                        },
+                        {
+                            "name" : "Layer13"
+                        },
+                        {
+                            "name" : "Layer14"
+                        },
+                        {
+                            "name" : "Layer15"
+                        },
+                        {
+                            "name" : "Layer16"
+                        },
+                        {
+                            "name" : "Layer17"
+                        },
+                        {
+                            "name" : "Layer18"
+                        },
+                        {
+                            "name" : "Layer19"
+                        },
+                        {
+                            "name" : "Layer20"
+                        }
+                    ],
+                    "use_init" : 0
+                },
+                "ats_settings" : {
+                    "num_tiles" : [
+                        30,
+                        17
+                    ],
+                    "threads_error" : 0,
+                    "prev_engine" : "CYCLES",
+                    "prev_device" : "CPU",
+                    "prev_border" : 0,
+                    "prev_threads" : 8,
+                    "prev_choice" : "32",
+                    "prev_res" : [
+                        960,
+                        540
+                    ],
+                    "prev_border_res" : [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "prev_actual_tile_size" : [
+                        32,
+                        32
+                    ],
+                    "first_run" : 0
+                },
+                "glTF2ExportSettings" : {
+                    "export_apply" : 1,
+                    "export_cameras" : 1,
+                    "export_current_frame" : 1,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_SEPARATE",
+                    "export_lights" : 1,
+                    "export_tangents" : 1
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                9
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Text.003",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                3.377906322479248,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "name" : "Text.002",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                2.100691795349121,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "name" : "Text.001",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                0.4818732738494873,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "name" : "Text",
+            "rotation" : [
+                0.6081657409667969,
+                0.3607414662837982,
+                -0.3607414960861206,
+                0.6081658005714417
+            ],
+            "translation" : [
+                -1.2519950866699219,
+                -0.021134980022907257,
+                0.18916887044906616
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Plane",
+            "scale" : [
+                9,
+                9,
+                9
+            ],
+            "translation" : [
+                1.9014639854431152,
+                -0.027080893516540527,
+                -0.17326036095619202
+            ]
+        },
+        {
+            "name" : "Cylinder"
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 0
+                }
+            },
+            "name" : "Lamp_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "camera" : 0,
+            "name" : "Camera_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "Camera",
+            "rotation" : [
+                0.380237340927124,
+                0.2847190499305725,
+                -0.12737926840782166,
+                0.8707061409950256
+            ],
+            "translation" : [
+                33.12830352783203,
+                47.79347229003906,
+                40.694297790527344
+            ]
+        }
+    ],
+    "cameras" : [
+        {
+            "name" : "Camera",
+            "perspective" : {
+                "yfov" : 0.5033799372418416,
+                "zfar" : 100,
+                "znear" : 0.10000000149011612
+            },
+            "type" : "perspective"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1,
+                0,
+                1
+            ],
+            "min" : [
+                -1,
+                0,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 48
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 96
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 108,
+            "uri" : "type-scene-two.bin"
+        }
+    ]
+}
